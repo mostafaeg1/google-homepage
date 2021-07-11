@@ -1,2 +1,2 @@
-# mostafaeg1.google-homepage
+# google-homepage
 Google homepage clone created with HTML and CSS.
