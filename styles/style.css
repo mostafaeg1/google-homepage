@@ -1,0 +1,130 @@
+.google-logo{
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 1.5%;
+}
+nav{
+    text-align: right;
+    margin-top: 0.7%;
+}
+nav>a{
+    font-family: sans-serif;
+    color: #000000DE;
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 13px;
+    opacity: 0.85;
+    margin-right: 0.7%;
+    cursor: pointer;
+}
+nav>a:hover{
+    text-decoration: underline;  
+}
+#google-apps-img{
+    width: 22px;
+    height: 22px;
+    margin-right: 0.3%;
+    margin-left: 0.6%;
+    vertical-align: middle;
+    opacity: 0.6;
+}
+#google-apps-img:hover{
+    opacity: 1;
+}
+
+#gmail-logo{
+    margin-right: 0.7%;
+    border-radius: 50%;
+    cursor: pointer;
+    vertical-align: middle;
+}
+#search-bar{
+display: flex;
+align-items: center;
+border: 0.1px solid #ddd;
+border-radius: 30px;
+height: 44px;
+justify-content: space-between;
+}
+#search-bar:hover,#search-bar:focus-within{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+
+#search-input{
+    width: 487px;
+    height: 34px;
+    background-color: transparent;  
+    border: none;
+    outline: none;
+}
+ main{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ #search-icon{
+     margin-left:  10px; ;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+ }
+ #microphone-icon{
+     margin-right: 10px;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+ }
+ .button-search{
+     width: 142px;
+     height: 36px;
+     cursor: pointer;
+     border-radius: 4px;
+     color: #3c4043;
+     margin: 24px 4px;
+     font-family: arial,sans-serif;
+     background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+ }
+ .button-search:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border-color: #dadce0;
+ }
+ .button-search:focus{
+    border-color:blue;
+ }
+ footer{
+     height: 46px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #f8f9fa;
+    background-color: #f2f2f2;
+
+    
+ }
+ 
+ .right-section {
+     margin-right: 2.5rem;
+    display: flex;
+ }
+
+ .left-section{
+     display: flex;
+}
+
+.a-footer{
+    color:#70757a;
+    font-family: sans-serif;
+   text-decoration: none;
+   font-size: 14px;
+   padding: 1rem 0 1rem 3rem;
+   display: block;
+}
+.a-footer:hover{
+text-decoration: underline;
+}
