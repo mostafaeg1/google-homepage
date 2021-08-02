@@ -96,11 +96,13 @@ justify-content: space-between;
  }
  footer{
      height: 46px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+     position: fixed;
+     bottom: 0;
+     left: 0;
     width: 100%;
     display: flex;
+    padding: 2px;
+    align-items: center;
     justify-content: space-between;
     border: 1px solid #f8f9fa;
     background-color: #f2f2f2;
@@ -109,7 +111,7 @@ justify-content: space-between;
  }
  
  .right-section {
-     margin-right: 2.5rem;
+    margin-right: 2.5rem;
     display: flex;
  }
 
@@ -121,10 +123,36 @@ justify-content: space-between;
     color:#70757a;
     font-family: sans-serif;
    text-decoration: none;
-   font-size: 14px;
+   font-size: 0.9rem;
    padding: 1rem 0 1rem 3rem;
    display: block;
 }
 .a-footer:hover{
 text-decoration: underline;
+}
+
+@media only screen and (max-width: 822px) {
+    #search-bar{
+        width: 90%;
+    }
+    main{
+        margin-top: 25%;
+    }
+    footer{
+        flex-direction: column;
+        padding: 14px;
+    }
+    .a-footer{
+        font-size: 0.78rem;
+       padding: 8px;
+    }
+    .right-section {
+       align-items: center;
+       display: flex;
+    }
+    .left-section{
+        margin-right: 5%;
+        align-items: center;
+   }
+    
 }
